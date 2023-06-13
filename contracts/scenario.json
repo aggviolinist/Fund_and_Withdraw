@@ -1,0 +1,66 @@
+{
+  "accounts": {
+    "account{0}": "0x4346a79828297d42F859B4cd9276A8d0e85Fc6B6"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1686119411344,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x453a4990f6aff889cf80ca95fcee0b2ba7fd07eb9dbd5fd52d7fa40d401594cc",
+        "contractName": "Funds",
+        "bytecode": "608060405234801561001057600080fd5b50610210806100206000396000f3fe6080604052600436106100345760003560e01c80630d8e6e2c1461003957806317f04b8a14610064578063b60d4288146100c9575b600080fd5b34801561004557600080fd5b5061004e6100d3565b6040518082815260200191505060405180910390f35b34801561007057600080fd5b506100b36004803603602081101561008757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610174565b6040518082815260200191505060405180910390f35b6100d161018c565b005b60008073694aa1769357215de4fac081bf1f309adc32530690508073ffffffffffffffffffffffffffffffffffffffff166354fd4d506040518163ffffffff1660e01b815260040160206040518083038186803b15801561013357600080fd5b505afa158015610147573d6000803e3d6000fd5b505050506040513d602081101561015d57600080fd5b810190808051906020019092919050505091505090565b60006020528060005260406000206000915090505481565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254019250508190555056fea264697066735822122008f71f5b64bbebc31adc114536d30b5b63e2042d0af59a6f2b4b481c9d15cf6764736f6c634300060c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x453a4990f6aff889cf80ca95fcee0b2ba7fd07eb9dbd5fd52d7fa40d401594cc": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "addressOfAccount",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "fund",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getVersion",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
